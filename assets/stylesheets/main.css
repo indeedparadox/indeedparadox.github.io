@@ -1,0 +1,32 @@
+
+/*putting several fonts in the font-family gives the browser options to choose from, depending which fonts it supports */
+h1 {color:#05a6f3; font-family:Impact; font:sans-serif; text-align:center;}
+
+body {margin:25px; background-color:#ffffff; color:#f39405;}
+
+footer {
+	display:inline-block;
+	float:left;
+	
+}
+
+nav a {
+	display:inline-block;
+	color:#f39405;
+	font-weight:bold;
+	text-decoration: none;
+	font-variant:small-caps;
+	border: 3px solid #f39405;
+	padding:5px;
+	border-radius:10px;
+}
+
+nav a:hover{
+	background:#f39405;
+	color:#ffffff;
+	
+}
+
+a {
+	font-variant:small-caps;
+}
