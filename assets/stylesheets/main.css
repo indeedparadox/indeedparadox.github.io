@@ -6,10 +6,22 @@ body {margin:25px; background-color:#ffffff; color:#f39405;}
 
 footer {
 	display:inline-block;
-	float:left;
+	
+	font-variant:small-caps;
+}
+
+footer a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
 	
 }
 
+footer a:hover{
+	background:#000000;
+	color:#ffffff;
+
+}
 nav a {
 	display:inline-block;
 	color:#f39405;
@@ -27,6 +39,3 @@ nav a:hover{
 	
 }
 
-a {
-	font-variant:small-caps;
-}
