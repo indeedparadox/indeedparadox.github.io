@@ -1,9 +1,14 @@
-
 /*putting several fonts in the font-family gives the browser options to choose from, depending which fonts it supports */
-h1 {color:#05a6f3; font-family:Impact; font:sans-serif; text-align:center;}
+h1 {color:#000000; font-family:Impact; font:sans-serif; text-align:center;}
 
-body {margin:25px; background-color:#ffffff; color:#f39405;}
+body {	margin:25px; 
+		color:#000000;
+		background: -webkit-linear-gradient(right, #00b7ea, #D2E4E8);
+		background: -moz-linear-gradient(right, #00b7ea, #D2E4E8);
+		background: -o-linear-gradient(right, #00b7ea, #D2E4E8);
+	}
 
+/* altes footer und nav design
 footer {
 	display:inline-block;
 	
@@ -38,4 +43,59 @@ nav a:hover{
 	color:#ffffff;
 	
 }
+*/
 
+.nav {
+	background-color:#f39405;
+	padding:15px;
+	list-style-type:none;
+	
+	border-radius:50px;
+
+}
+
+.nav li {
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	font-variant:small-caps;
+	
+
+}
+
+.nav a {
+	text-decoration:none;
+	color:#000000;
+	font-size:20px;
+}
+
+.nav a:hover {
+	color:#FFFFFF;
+}
+
+.nav a:focus {
+	color:#FFFFFF;
+}
+
+.footer {
+	background-color:#f39405;
+	padding:10px;
+	display:inline-block;
+	border-radius:50px;
+
+}
+
+.footer a{
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	color:#000000;
+	font-variant:small-caps;
+}
+
+.footer a:hover{
+	color:#FFFFFF;
+}
+.footer a:focus{
+	color:#FFFFFF;
+}
