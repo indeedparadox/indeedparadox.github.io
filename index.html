@@ -3,9 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Qingdao Clique &ndash; die Website</title>
-	<link rel="icon" type="image/png" href="Friends.png"/>
+	<link rel="icon" type="image/png" href="assets/images/Friends.png"/>
+
+<!-- referenced an external default style sheet to my homepage -->
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/default-stylesheet">
+
 <!-- referenced a style sheet to my homepage -->
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+
 	<script src="https://kit.fontawesome.com/bce6cfbadd.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,7 +20,7 @@
 		<nav>
 		<ul class="nav" id="Inhalt">
 			<li> <a href="Taiwan.html">Hochzeit Pablo und Kay</a></li>
-			<li><a href="Menschen.html">unschöne Menschen</a></li>
+			<li> <a href="Menschen.html">unschöne Menschen</a></li>
 		</ul>
 		</nav>
 	</header>
@@ -25,33 +30,47 @@
 		
 		<br>
 		Hier eine unnötige Anzeige über den Fortschritt der Seite: 
-			<progress max="100" value="20"></progress>
+			<progress max="100" value="23"></progress>
 			<br/>
 			
-		<section>
+		<div>
 					
 			 <h3>Was euch auf dieser Seite erwartet:</h3> 
 				<ul>
-				<li>sinnloser Inhalt</li>
+				<li><s>sinnloser</s> genialer Inhalt</li>
 				<li>Bilder</li>
-				<li>hässliche Leute auf diesen Bildern</li>
-				<li>noch mehr sinnloser Inhalt</li>
-				<li>noch mehr hässliche Leute</li>
+				<li><s>hässliche</s> wunderschöne Leute auf diesen Bildern</li>
+				<li>noch mehr <s>sinnloser</s> genialer Inhalt</li>
+				<li>noch mehr <s>hässliche</s> wunderschöne Leute</li>
 				</ul>
-		</section>
-		
+		</div>
+	
+
 		
 		<hr>
-		<section>
-			<h5>Vorgeschmack</h5>
-			<p>Ein kleiner Vorgeschmack auf den <em>genialen</em> Inhalt den es hier geben könnte! Einfach nur <em>wow</em> &#033;</p>
+	<!-- Versuch die Bilder nebeneinander darzustellen; Infos von https://www.w3schools.com/howto/howto_css_images_side_by_side.asp-->
+	<div class="row">	
+		<div class="column">
+			<h3>Vorgeschmack</h3>
+			<p>Ein kleiner Vorgeschmack auf den <em>genialen</em> Inhalt den es hier geben könnte&#033; Einfach nur <em>wow</em>&#033;</p>
 			<figure>
-				<img src="Wueste.png" alt="Mann in Wüste" title="Mann in Wüste">
-
+				<img src="assets/images/Wueste.png" alt="Mann in Wüste" title="Mann in Wüste">
 				<figcaption>Mann in der Wüste, unglückliche Räuber im Hintergrund</figcaption>
 			</figure>
-		
-		</section>
+		</div>
+		<div class="column">	
+			<figure>
+				<img src="assets/images/inhalt-code.png" alt="der Inhalt dieser Website in HTML" title="HTML Code" style="width:50%">
+				<figcaption>So sieht der Inhalt dieser Seite in HTML aus... falls das jemand wissen wollte</figcaption>
+			</figure>
+		</div>
+		<div class="column">
+			<figure>
+				<img src="assets/images/styling-code.png" alt="CSS Code für styling der Website" title="CSS Code" style="width:50%">
+				<figcaption>So sieht das Styling dieser Seite mit CSS Code aus. Damit habe ich unter Anderem <ul><li>die Hintergrundfarbe</li><li>die Schriftart</li><li>das Design der Navigationsleiste</li></ul></figcaption> definiert.
+			</figure>
+		</div>
+	</div>
 	
 			<button>Press this button to become smart</button> <p> jk, this button doesn't do anything. Idiot.</p>
 

@@ -1,11 +1,14 @@
-/*putting several fonts in the font-family gives the browser options to choose from, depending which fonts it supports */
 h1 {color:#000000; font-family:Impact; font:sans-serif; text-align:center;}
+/*putting several fonts in the font-family gives the browser options to choose from, depending which fonts it supports */
 
-body {	margin:25px; 
+body {	margin: 25px;
+		margin-top: 50px;
 		color:#000000;
-		background: -webkit-linear-gradient(right, #00b7ea, #D2E4E8);
-		background: -moz-linear-gradient(right, #00b7ea, #D2E4E8);
-		background: -o-linear-gradient(right, #00b7ea, #D2E4E8);
+		background: -webkit-linear-gradient(left, #00b7ea, #D2E4E8);
+		background: -moz-linear-gradient(left, #00b7ea, #D2E4E8);
+		background: -o-linear-gradient(left, #00b7ea, #D2E4E8);
+		background: -ms-linear-gradient(left, #00b7ea, #D2E4E8);
+		/* Go to caniuse.com to see which properties are supported in which browser */
 	}
 
 /* altes footer und nav design
@@ -47,10 +50,11 @@ nav a:hover{
 
 .nav {
 	background-color:#f39405;
-	padding:15px;
+	padding: 15px;
 	list-style-type:none;
-	
-	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	-o-border-radius:50px;
 
 }
 
@@ -81,7 +85,9 @@ nav a:hover{
 	background-color:#f39405;
 	padding:10px;
 	display:inline-block;
-	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	-o-border-radius:50px;
 
 }
 
@@ -99,3 +105,4 @@ nav a:hover{
 .footer a:focus{
 	color:#FFFFFF;
 }
+
