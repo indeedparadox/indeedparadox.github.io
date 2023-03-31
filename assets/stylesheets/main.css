@@ -1,13 +1,19 @@
-h1 {color:#000000; font-family:Impact; font:sans-serif; text-align:center;}
+h1 {
+	color:#000000; font-family:Impact; font:sans-serif; text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: xx-large;
+}
 /*putting several fonts in the font-family gives the browser options to choose from, depending which fonts it supports */
 
-body {	margin: 25px;
-		margin-top: 50px;
-		color:#000000;
-		background: -webkit-linear-gradient(left, #00b7ea, #D2E4E8);
-		background: -moz-linear-gradient(left, #00b7ea, #D2E4E8);
-		background: -o-linear-gradient(left, #00b7ea, #D2E4E8);
-		background: -ms-linear-gradient(left, #00b7ea, #D2E4E8);
+body {	
+	margin: 25px;
+	margin-top: 25px;
+	color:#000000;
+	background: -webkit-linear-gradient(left, #00b7ea, #D2E4E8);
+	background: -moz-linear-gradient(left, #00b7ea, #D2E4E8);
+	background: -o-linear-gradient(left, #00b7ea, #D2E4E8);
+	background: -ms-linear-gradient(left, #00b7ea, #D2E4E8);
 		/* Go to caniuse.com to see which properties are supported in which browser */
 	}
 
@@ -104,5 +110,15 @@ nav a:hover{
 }
 .footer a:focus{
 	color:#FFFFFF;
+}
+
+#screenshots{
+	box-sizing:border-box;
+	width:49%;
+	display:inline-block;
+	border:solid #ffffff;
+	margin:8px;
+	text-align:center;
+	
 }
 
